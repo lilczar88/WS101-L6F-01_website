@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: linear-gradient(to right, #F8F9FA, #FFFFFF); /* Very light gradient */
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: rgba(131, 179, 227, 0.95); /* Even darker pastel blue */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    color: #333333; /* Darker font color for better readability */
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px; /* Adds space above and below the container */
+
+}
+
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.95); /* Almost white */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 400px;
+    color: #444444; /* Soft dark color */
+}
+
+#languages-section {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 20px;
+    
+}
+
+#languages-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.language {
+    background-color: rgba(245, 245, 245, 0.95); /* Very light gray */
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    color: #555555; /* Muted text color */
+}
+
+.language p {
+    margin: 5px 0;
+}
+
+#languages-section h2 {
+    color: #555555; /* Muted heading color */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.api-info-card {
+    background-color: rgba(240, 248, 255, 0.95); /* Light blue background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    color: #444444; /* Soft dark color */
+    margin: 20px 0; /* Space above and below */
+    width: 80%;
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.api-info-card h2 {
+    margin-bottom: 10px;
+    color: #333333; /* Darker text for headings */
+}
+
+.api-info-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Add top and bottom margins to the programming languages section */
+#languages-section {
+    margin-bottom: 28px;
+}
